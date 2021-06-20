@@ -16,6 +16,9 @@ body {
   background-color: var(--background-color);
 }
 /* HEADER */
+.header {
+  background: #ffffff;
+}
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -80,6 +83,12 @@ body {
   color: #ffffff;
   background: var(--accent-color);
   cursor: pointer;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: var(--accent-color);
+  border-radius: 4px;
 }
 /* =virtues section= */
 .virtues-caption {
@@ -96,6 +105,9 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.team-section {
+  background: #f5f4fa;
+}
 /* =What are we doing, team sections= */
 .direction-heading,
 .team-section-heading {
@@ -106,11 +118,15 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.team-members {
+  background: #ffffff;
+}
 .team-expert {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: #212121;
 }
 .team-expert-speciality {
   font-weight: 400;
@@ -135,6 +151,51 @@ body {
 .filter-btn:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+.btn-all {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.btn-website {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.btn-app {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.btn-design {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.btn-marketing {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 .portfolio-item {
   background-color: #eeeeee;
